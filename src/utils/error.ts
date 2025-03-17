@@ -1,5 +1,5 @@
 import { IncomingMessage, ServerResponse } from "node:http";
-import { Error } from "./types";
+import { Error } from "../types";
 
 
 export class CliesntError extends Error{
